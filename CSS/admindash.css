@@ -1,0 +1,134 @@
+.head{
+    padding: 20px;
+    background: linear-gradient(15deg, #238be0 0%, #80d0c7 100%);
+    border-radius: 20px;
+    text-align: center;
+    margin: 0px 10px;
+    /* position: fixed;
+    width: 100%;
+    overflow: hidden; */
+    
+    
+}
+.logout{
+    position: relative;
+    float: right;
+    top:-33px;
+}
+.logout a{
+   text-decoration: none;
+   font-weight: bold;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.logout a:hover{
+  font-weight: bolder;
+  color: blue;
+  
+}
+
+.head h1{
+    color: #b82c3f;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0px;
+    font-size: 2.5rem;
+ 
+}
+.dashcontent{
+    display: flex;
+    flex-direction: row;
+}
+.aside{
+    align-items: center;
+    background: linear-gradient(15deg, #2196f3 0%, #80d0c7 100%);
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    height: 100%;
+    border-radius: 20px;
+    padding: 100px 0px;
+    margin: 20px 10px;
+    
+    
+}
+.aside .l1{
+    margin: 10px 0px;
+    font-size: large;
+    font-weight: bold;
+    width: 100%;
+    padding: 20px 0px;
+    text-align: center;
+    border-radius: 20px;
+    /* border: 2px solid black; */
+    /* padding-top: 20px; */
+
+}
+.aside .l1 a{
+    text-decoration: none;
+    color: #b82c3f;
+}
+.l1:hover{
+    /* background-color: rgb(67, 67, 235); */
+    cursor: pointer;
+    background: linear-gradient(15deg, #176aad 0%, #56a3d6 100%);
+    color: #b82c3f;
+}
+.subcontent{
+    display: flex;
+    flex-direction: column;
+    width: 75vw;
+    margin: 10px 10px;
+    padding: 15px 0px;
+    align-items: center;
+}
+#users{
+    text-align: center;
+    /* border:2px solid rgb(100, 66, 66); */
+    border-radius: 20px;
+    /* background-color: #b82c3f; */
+    width: 85%;
+    margin-bottom: 50px;
+}
+#users h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 20px;
+}
+.newsboard{
+    text-align: center;
+    /* border:2px solid rgb(100, 66, 66); */
+    border-radius: 20px;
+    /* background-color: #b82c3f; */
+    width: 85%;
+    margin-bottom: 50px;
+}
+.addnews{
+    text-align: center;
+    /* border:2px solid rgb(100, 66, 66); */
+    border-radius: 20px;
+    /* background-color: #b82c3f; */
+    width: 85%;
+    margin-bottom: 50px;    
+}
+.applications{
+    margin-bottom: 50px;
+    text-align: center;
+    /* border:2px solid rgb(100, 66, 66); */
+    border-radius: 20px;
+    /* background-color: #b82c3f; */
+    width: 85%;
+}
+.donorlist{
+    margin-bottom: 50px;
+    text-align: center;
+    /* border:2px solid rgb(100, 66, 66); */
+    border-radius: 20px;
+    /* background-color: #b82c3f; */
+    width: 85%;
+}
+.updatenews{
+    margin-bottom: 50px;
+    text-align: center;
+    /* border:2px solid rgb(100, 66, 66); */
+    border-radius: 20px;
+    /* background-color: #b82c3f; */
+    width: 85%;
+}

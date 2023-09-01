@@ -1,0 +1,47 @@
+#formheading{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 20px;
+}
+.applicationForm{
+    width: 80vw;
+    margin: 50px 100px;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 15px 40px;
+    /* border-radius: 20px; */
+    border: 2px solid #2937df;
+    box-shadow: 5px 5px 10px #2196f3;
+}
+.applicationForm form{
+    display: flex;
+    flex-direction: column;
+}
+.subformheading{
+    background: linear-gradient(15deg, #2196f3 0%, #80d0c7 100%);
+    padding: 10px;
+    margin: 30px 10px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px #7b21f3;
+}
+.zoom-in-zoom-out {
+    padding: 0.3rem;
+    background-color: palegreen;
+    animation: zoom-in-zoom-out 2s ease-out infinite;
+  }
+  
+  @keyframes zoom-in-zoom-out {
+    0% {
+      transform: scale(0.5, 0.5);
+    }
+    50% {
+      transform: scale(1, 1);
+      color: brown;
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+}
+label{
+    font-weight: 600;
+}
